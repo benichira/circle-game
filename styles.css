@@ -1,0 +1,47 @@
+body {
+    background: #00282f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.container .circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: darkred;
+    cursor: pointer;
+    position: absolute;
+    top: 215px;
+    left: 215px;
+    transition: 0.25s ease-in-out;
+}
+
+.timer {
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#displayed-time {
+    width: 150px;
+    text-align: center;
+    height: fit-content;
+    min-height: 50px;
+    font-size: 40px;
+    color: white;
+}
